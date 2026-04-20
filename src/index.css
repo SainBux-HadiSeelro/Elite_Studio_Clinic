@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+    --font-heading: "Plus Jakarta Sans", sans-serif;
+    --font-sans: 'Inter', sans-serif;
+    
+    --color-brand-50: #f0fdf9;
+    --color-brand-100: #ccfbf1;
+    --color-brand-200: #99f6e4;
+    --color-brand-300: #5eead4;
+    --color-brand-400: #4fd1c5;
+    --color-brand-500: #38b2ac;
+    --color-brand-600: #319795;
+    --color-brand-700: #2c7a7b;
+    --color-brand-800: #285e61;
+    --color-brand-900: #234e52;
+
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-destructive: var(--destructive);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+    
+    --radius-sm: calc(var(--radius) * 0.6);
+    --radius-md: calc(var(--radius) * 0.8);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) * 1.5);
+    --radius-2xl: calc(var(--radius) * 2);
+}
+
+:root {
+    --background: #0c1219;
+    --foreground: #ffffff;
+    --card: rgba(255, 255, 255, 0.03);
+    --card-foreground: #ffffff;
+    --popover: #151e29;
+    --popover-foreground: #ffffff;
+    --primary: #4fd1c5;
+    --primary-foreground: #0c1219;
+    --secondary: #1a2c38;
+    --secondary-foreground: #ffffff;
+    --muted: rgba(255, 255, 255, 0.05);
+    --muted-foreground: rgba(255, 255, 255, 0.5);
+    --accent: rgba(79, 209, 197, 0.1);
+    --accent-foreground: #4fd1c5;
+    --destructive: #f56565;
+    --border: rgba(255, 255, 255, 0.1);
+    --input: rgba(255, 255, 255, 0.05);
+    --ring: #4fd1c5;
+    --radius: 1.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-none;
+  }
+  body {
+    @apply bg-background text-foreground font-sans selection:bg-brand-400 selection:text-background;
+    background-image: radial-gradient(circle at top right, #1a2c38 0%, #0c1219 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight font-light;
+  }
+  b, strong {
+    @apply font-extrabold;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/3 backdrop-blur-[20px] border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)];
+  }
+  .glass-card {
+    @apply bg-white/2 backdrop-blur-[20px] border border-white/5 shadow-2xl;
+  }
+  .btn-gradient {
+    @apply bg-gradient-to-br from-brand-400 to-brand-500 text-background font-bold shadow-[0_10px_20px_rgba(79,209,197,0.2)] hover:shadow-[0_15px_30px_rgba(79,209,197,0.3)] transition-all;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 to-brand-300;
+  }
+}
