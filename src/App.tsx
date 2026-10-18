@@ -9,6 +9,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Home from '@/pages/Home';
 import Appointment from '@/pages/Appointment';
+import Chatbot from '@/components/Chatbot';
 import React, { useEffect } from 'react';
 
 function ScrollToTop() {
@@ -57,6 +58,7 @@ export default function App() {
           <AnimatedRoutes />
         </main>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   );

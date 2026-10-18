@@ -1,6 +1,6 @@
 {
-  "name": "Elite Dental Studio",
-  "description": "A premium, minimalist dental studio experience featuring state-of-the-art glassmorphism design and bespoke aesthetic care.",
+  "name": "Elite Studio Clinic",
+  "description": "A premier luxury aesthetic & restorative dental clinic featuring quiet obsidian glassmorphism design, bespoke smile architecture, and 24/7 Live AI Concierge.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["AI Concierge", "Interactive Smile Studio", "VIP Appointment Booking"]
 }

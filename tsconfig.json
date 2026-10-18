@@ -15,12 +15,15 @@
     "moduleDetection": "force",
     "allowJs": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/components/ui/*": ["./components/ui/*"],
+      "@/components/ui": ["./components/ui"],
+      "@/lib/*": ["./lib/*"],
+      "@/lib": ["./lib"],
+      "@/*": ["./src/*"]
     },
-    "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  "include": ["src", "components", "lib", "vite.config.ts"]
 }
