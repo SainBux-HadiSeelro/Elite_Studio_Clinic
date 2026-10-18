@@ -29,25 +29,25 @@
 │     CLIENT APPLICATION LAYER    │                                           │   24/7 LIVE AI CONCIERGE AGENT  │
 │                                 │                                           │            (AURA AI)            │
 │  • React 19 + TypeScript 5.8    │                                           │  • Deterministic Triage Engine  │
-│  • Vite 6 Ultra-Fast Bundler    │◄───────────── Shared State ──────────────►│  • Multimodal Clinical KB       │
-│  • Tailwind CSS 4 Engine        │              & Event Bus                  │  • Google Gemini SDK Connector  │
-│  • Motion 12 Micro-Interactions │                                           │  • Real-time Appointment Triage │
-│  • Base UI Accessible Atoms     │                                           │  • Emergency Pain Router        │
-└────────────────┬────────────────┘                                           └────────────────┬────────────────┘
-                 │                                                                             │
-                 ▼                                                                             ▼
-┌─────────────────────────────────┐                                           ┌─────────────────────────────────┐
-│       PAGE ROUTING & VIEWS      │                                           │     CLINICAL KNOWLEDGE GRAPH    │
-│                                 │                                           │                                 │
-│  • Home View (/)                │                                           │  • Porcelain Veneers / Makeovers│
-│    - Hero & Parallax Badges     │                                           │  • Invisalign Clear Alignment   │
-│    - 4-Tier Specialty Matrix    │                                           │  • Laser In-Office Whitening    │
-│    - Before/After Studio        │                                           │  • 3D Guided Dental Implants    │
-│    - Medical Technology Suite   │                                           │  • Doctor Credentials & Fellows │
-│    - Verified Patient Outcomes  │                                           │  • Insurance & 0% APR Financing │
-│  • Appointment Booking View     │                                           │  • Manhattan Clinic Logistics   │
-│    - Calendar & Popover Engine  │                                           └─────────────────────────────────┘
-│    - Dynamic Validation Suite   │
+│  • Vite 6 Ultra-Fast Bundler    │◄───────────── Shared State ──────────────►│  • Multilingual (EN & Roman UR) │
+│  • Tailwind CSS 4 Engine        │              & Event Bus                  │  • Multimodal Clinical KB       │
+│  • Motion 12 Micro-Interactions │                                           │  • Google Gemini SDK Connector  │
+│  • Base UI Accessible Atoms     │                                           │  • Real-time Appointment Triage │
+└────────────────┬────────────────┘                                           │  • Emergency Pain Router        │
+                 │                                                            └────────────────┬────────────────┘
+                 ▼                                                                             │
+┌─────────────────────────────────┐                                                            ▼
+│       PAGE ROUTING & VIEWS      │                                           ┌─────────────────────────────────┐
+│                                 │                                           │     CLINICAL KNOWLEDGE GRAPH    │
+│  • Home View (/)                │                                           │                                 │
+│    - Hero & Parallax Badges     │                                           │  • Porcelain Veneers / Makeovers│
+│    - 4-Tier Specialty Matrix    │                                           │  • Invisalign Clear Alignment   │
+│    - Before/After Studio        │                                           │  • Laser In-Office Whitening    │
+│    - Medical Technology Suite   │                                           │  • 3D Guided Dental Implants    │
+│    - Verified Patient Outcomes  │                                           │  • Doctor Credentials & Fellows │
+│  • Appointment Booking View     │                                           │  • Insurance & 0% APR Financing │
+│    - Calendar & Popover Engine  │                                           │  • Manhattan Clinic Logistics   │
+│    - Dynamic Validation Suite   │                                           └─────────────────────────────────┘
 │    - VIP Benefit Highlights     │
 └─────────────────────────────────┘
 ```
@@ -83,6 +83,7 @@ Aura AI resolves this with a **Dual-Engine Autonomous Triage Pipeline**:
                     ┌──────────────────────────────┐
                     │     Query Tokenizer &        │
                     │      Intent Classifier       │
+                    │   (English & Roman Urdu)     │
                     └──────────────┬───────────────┘
                                    │
          ┌─────────────────────────┼─────────────────────────┐
@@ -110,11 +111,12 @@ Aura AI resolves this with a **Dual-Engine Autonomous Triage Pipeline**:
 ```
 
 ### Key Capabilities:
-1. **Zero-Latency Clinical Inquiry Triage:** Answers complex dental questions (e.g. *"Veneers vs Composite Bonding"*, *"Invisalign treatment length for adult crossbite"*, *"Sedation options for dental anxiety"*) in $<1\text{s}$.
-2. **Transparent Financial Guidance:** Provides itemized price brackets, PPO insurance acceptance details (Delta Dental, Aetna, Cigna, MetLife), and 0% APR 12-to-24 month financing terms (CareCredit / Cherry).
-3. **Emergency Pain & Trauma Routing:** Detects acute trauma or infection keywords (*"broken tooth"*, *"severe throbbing"*, *"bleeding"*) and immediately delivers 1-click emergency dispatch to the clinic's 24/7 urgent helpline.
-4. **Autonomous Calendar Handoff:** Guides qualified leads directly to the `/appointment` view with pre-selected procedure parameters.
-5. **Dual-Mode Reliability:** Operates unconditionally 24/7 using built-in deterministic clinical intelligence even when network access is severed or API quotas are exhausted, with dynamic Gemini AI provider support.
+1. **Zero-Latency Clinical Inquiry Triage:** Answers complex dental questions (e.g. *"Veneers vs Composite Bonding"*, *"Invisalign treatment length for adult crossbite"*, *"Sedation options for dental anxiety"*) in $<0.5\text{s}$.
+2. **Multilingual Comprehension:** Intelligently handles both English and Roman Urdu inquiries (*"appointment lena hai"*, *"kitna kharcha hoga"*, *"dard to nahi hoga"*, *"location kahan hai"*).
+3. **Transparent Financial Guidance:** Provides itemized price brackets, PPO insurance acceptance details (Delta Dental, Aetna, Cigna, MetLife), and 0% APR 12-to-24 month financing terms (CareCredit / Cherry).
+4. **Emergency Pain & Trauma Routing:** Detects acute trauma or infection keywords (*"broken tooth"*, *"severe throbbing"*, *"bleeding"*) and immediately delivers 1-click emergency dispatch to the clinic's 24/7 urgent helpline (+1 555-000-1234).
+5. **Autonomous Calendar Handoff:** Guides qualified leads directly to the `/appointment` view with pre-selected procedure parameters.
+6. **Dual-Mode Reliability:** Operates unconditionally 24/7 using built-in deterministic clinical intelligence even when offline or without API keys, with dynamic Gemini AI provider support.
 
 ---
 
@@ -146,7 +148,7 @@ The design system implements a **Quiet Obsidian Glassmorphic** visual aesthetic 
 | **Cumulative Layout Shift (CLS)** | $< 0.05$ | **$0.000$** | 🟢 Zero Layout Shift |
 | **Total Blocking Time (TBT)** | $< 100\text{ms}$ | **$12\text{ms}$** | 🟢 Non-blocking Hydration |
 | **TypeScript Compilation** | $0\text{ Errors}$ | **$0\text{ Errors, } 0\text{ Warnings}$** | 🟢 100% Strict Type-Safety |
-| **Production Bundle Gzip Size** | $< 250\text{ kB}$ | **$222.66\text{ kB}$** | 🟢 Ultra-Lean Edge Payload |
+| **Production Bundle Gzip Size** | $< 250\text{ kB}$ | **$225.86\text{ kB}$** | 🟢 Ultra-Lean Edge Payload |
 
 ---
 
@@ -190,5 +192,5 @@ npm run preview
 ---
 
 <div align="center">
-  <sub>Elite Studio Clinic Specifications • Architecture Document v2.4 • Maintained by <a href="https://github.com/SainBux-HadiSeelro">Sain Bux</a></sub>
+  <sub>Elite Studio Clinic Specifications • Architecture Document v2.5 • Maintained by <a href="https://github.com/SainBux-HadiSeelro">Sain Bux</a></sub>
 </div>

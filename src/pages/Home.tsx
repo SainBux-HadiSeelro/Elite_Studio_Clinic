@@ -512,7 +512,7 @@ export default function Home() {
       </section>
 
       {/* Dentist Team Section */}
-      <section className="py-24 px-4">
+      <section id="about" className="py-24 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <span className="text-brand-400 font-bold uppercase tracking-[4px] text-xs">Medical Leadership</span>

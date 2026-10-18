@@ -44,10 +44,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-heading font-bold text-[13px] uppercase tracking-[2px] mb-6">Services</h4>
             <ul className="space-y-4 text-sm font-medium">
-              <li><a href="#" className="hover:text-brand-400 transition-colors">Veneers & Aesthetics</a></li>
-              <li><a href="#" className="hover:text-brand-400 transition-colors">Digital Implants</a></li>
-              <li><a href="#" className="hover:text-brand-400 transition-colors">Laser Treatment</a></li>
-              <li><a href="#" className="hover:text-brand-400 transition-colors">Teeth Whitening</a></li>
+              <li><a href="/#services" className="hover:text-brand-400 transition-colors">Veneers & Aesthetics</a></li>
+              <li><a href="/#services" className="hover:text-brand-400 transition-colors">Digital Implants</a></li>
+              <li><a href="/#services" className="hover:text-brand-400 transition-colors">Laser Treatment</a></li>
+              <li><a href="/#services" className="hover:text-brand-400 transition-colors">Teeth Whitening</a></li>
             </ul>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-medium">
               <li className="flex gap-3 items-start">
                 <MapPin className="text-brand-400 shrink-0" size={18} />
-                <span className="text-white/40">123 Dental Street, Medical District, NY 10001</span>
+                <span className="text-white/40">123 Dental Street, Medical District, Manhattan, NY 10001</span>
               </li>
               <li className="flex gap-3 items-center">
                 <Phone className="text-brand-400 shrink-0" size={18} />
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
         
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-white/20 text-[11px] uppercase tracking-[2px] font-bold">
-          <div>128 Madison Ave, Manhattan NY</div>
+          <div>123 Dental Street, Medical District, Manhattan NY</div>
           <div>EST. 2012 — Elite Medical Group</div>
           <p>© {new Date().getFullYear()} Elite Dental Studio. All rights reserved.</p>
         </div>

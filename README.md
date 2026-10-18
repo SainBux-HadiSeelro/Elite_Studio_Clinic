@@ -1,9 +1,9 @@
 <div align="center">
 
 # 💎 Elite Studio Clinic
-### Ultra-Luxury Aesthetic & Restorative Dental Clinic Platform • 24/7 Autonomous AI Concierge
+### Ultra-Luxury Aesthetic & Restorative Dental Studio Platform • 24/7 Autonomous AI Concierge
 
-[![Author](https://img.shields.io/badge/Architect-Sain%20Bux-1553C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SainBux-HadiSeelro)
+[![Architect](https://img.shields.io/badge/Architect-Sain%20Bux-1553C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SainBux-HadiSeelro)
 [![Portfolio](https://img.shields.io/badge/Live%20Portfolio-sainbux.vercel.app-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://sainbux.vercel.app/)
 [![React 19](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -14,7 +14,7 @@
 
 <br/>
 
-**A production-grade digital experience engineered for premier medical aesthetic practices. Features quiet obsidian glassmorphism, interactive smile transformation matrices, and an always-on 24/7 Live AI Clinic Concierge that qualifies patient inquiries and secures VIP consultations in real time.**
+**A production-grade digital experience engineered for premier medical aesthetic practices. Features quiet obsidian glassmorphism, interactive smile transformation matrices, and an always-on 24/7 Live AI Clinic Concierge ("Aura AI") that qualifies patient inquiries and secures VIP consultations in real time.**
 
 [📑 **View System Specifications**](SPECIFICATIONS.md) • [🌐 **Explore Sain Bux Portfolio**](https://sainbux.vercel.app/) • [💼 **Book Technical Collaboration**](mailto:sainbuxseelro11@gmail.com)
 
@@ -37,9 +37,10 @@ A bespoke digital clinic architecture built on **React 19**, **Vite 6**, and **T
 ## ⚡ Core Feature Showcase
 
 ### 1. 🤖 24/7 Autonomous Live AI Concierge ("Aura AI")
-- **Instant Clinical Triage:** Answers inquiries on porcelain veneers vs composite bonding, treatment timelines, sedation options, and doctor qualifications in $<1\text{s}$.
-- **Transparent Fee & Insurance Guidance:** Provides itemized price brackets, PPO insurance acceptance details (Delta Dental, Aetna, Cigna, MetLife), and 0% APR 12-month financing terms (CareCredit / Cherry).
-- **Emergency Pain Protocol:** Detects acute tooth trauma, infection, or severe discomfort and routes patients to the direct 24/7 clinic emergency line.
+- **Instant Clinical Triage:** Answers inquiries on porcelain veneers vs composite bonding, treatment timelines, sedation options, and doctor qualifications in $<0.5\text{s}$.
+- **Multilingual Patient Understanding:** Intelligently comprehends queries in **English** and **Roman Urdu / Urdu** (e.g., *"appointment lena hai"*, *"kitna kharcha hoga"*, *"dard to nahi hoga"*).
+- **Transparent Fee & Insurance Guidance:** Provides itemized price brackets, PPO insurance acceptance details (Delta Dental, Aetna, Cigna, MetLife), and 0% APR 12-to-24 month financing terms (CareCredit / Cherry).
+- **Emergency Pain Protocol:** Detects acute tooth trauma, infection, or severe discomfort and routes patients to the direct 24/7 clinic emergency line with first-aid guidance.
 - **Autonomous Calendar Handoff:** Pre-qualifies client treatment intent and guides them directly to VIP consultation booking.
 - **Dual-Engine Architecture:** Operates with high-accuracy deterministic clinic intelligence 24/7 unconditionally, with native Google Gemini AI cloud integration.
 
@@ -78,7 +79,7 @@ A bespoke digital clinic architecture built on **React 19**, **Vite 6**, and **T
 │   │   Interactive Modules    │             │  Integration Pipeline  │   │
 │   │   • Smile Transform View │             │  • Google Gemini SDK   │   │
 │   │   • VIP Booking Calendar │             │  • Deterministic Engine│   │
-│   │   • Doctor Credentials   │             │  • Telemetry Logging   │   │
+│   │   • Doctor Credentials   │             │  • Multilingual Engine │   │
 │   └──────────────────────────┘             └────────────────────────┘   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -113,7 +114,7 @@ Engineered for uncompromising speed, verified on production builds:
 | **Cumulative Layout Shift (CLS)** | $0.14$ | **$0.000$** | 🟢 Zero Layout Shift |
 | **Total Blocking Time (TBT)** | $350\text{ms}$ | **$12\text{ms}$** | 🟢 Ultra-Responsive |
 | **TypeScript Compile Status** | Warnings common | **$0\text{ Errors / }0\text{ Warnings}$** | 🛡️ 100% Type-Safe |
-| **Gzipped Production Payload** | $1.2\text{ MB}$ | **$222.66\text{ kB}$** | ⚡ Edge-Optimized |
+| **Gzipped Production Payload** | $1.2\text{ MB}$ | **$225.86\text{ kB}$** | ⚡ Edge-Optimized |
 
 ---
 
